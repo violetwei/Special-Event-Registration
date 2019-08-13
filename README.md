@@ -1,3 +1,8 @@
+# Specialized Event Registration System
+
+## Overview
+**Backend + Frontend** built with Gradle, SpringBoot, Vue.js, Heroku, Travis CI, RESTful API 
+
 ## How to run
 - git clone Repo
 - Install npm on cloned location
@@ -19,3 +24,7 @@ The source code for the end-to-end test cases is located in the folder *REPO_ROO
 
 ### Running the frontend tests
 To run the end-to-end (e2e) tests cases, issue **npm run e2e** in *REPO_ROOT/EventRegistration-Frontend/* folder
+
+Note: The successful execution of end-to-end tests requires that you have executed **npm install** in the frontend folder and the backend is already running and connected to a database.
+
+Note: When running **npm run e2e** locally, some end-to-end tests may fail if your computer is operating with a higher load - just re-run the tests if this happens to verify correct behavior. The performance will not be an issue in the CI evaluation environment because there will not be many other processes running there.
